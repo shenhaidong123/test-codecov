@@ -7,7 +7,11 @@
     "test": "test"
   },
   "scripts": {
-    "test": "istanbul cover _mocha test/test.sqrt.js"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha && codecov --token=7f3aea69ed944fd9ac638f91213eddb2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shenhaidong123/test-codecov.git"
   },
   "author": "",
   "license": "ISC",
