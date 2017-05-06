@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "istanbul cover node_modules/mocha/bin/_mocha && codecov --token=7f3aea69ed944fd9ac638f91213eddb2"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha && codecov --token=8a9d0cc7454349dbbb060349c71ced85"
   },
   "repository": {
     "type": "git",
